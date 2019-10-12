@@ -67,6 +67,7 @@ class FileDatabaseSelectActivity : StylishActivity(),
     private var fileListContainer: View? = null
     private var createButtonView: View? = null
     private var openDatabaseButtonView: View? = null
+    private var cloudDatabaseButtonView: View? = null
 
     // Adapter to manage database history list
     private var mAdapterDatabaseHistory: FileDatabaseHistoryAdapter? = null
@@ -108,6 +109,10 @@ class FileDatabaseSelectActivity : StylishActivity(),
         mOpenFileHelper = OpenFileHelper(this)
         openDatabaseButtonView = findViewById(R.id.open_database_button)
         openDatabaseButtonView?.setOnClickListener(mOpenFileHelper?.openFileOnClickViewListener)
+
+        //Cloud Button
+        cloudDatabaseButtonView = findViewById(R.id.cloud_database_button)
+        cloudDatabaseButtonView?.setOnClickListener { }
 
         // History list
         val fileDatabaseHistoryRecyclerView = findViewById<RecyclerView>(R.id.file_list)

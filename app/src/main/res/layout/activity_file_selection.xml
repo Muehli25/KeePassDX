@@ -182,6 +182,21 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cloud_database_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cloud_database_file"
+                android:drawableRight="@drawable/ic_cloud_white_24dp"
+                android:drawableEnd="@drawable/ic_cloud_white_24dp"
+                style="@style/KeepassDXStyle.Button.Cloud"
+                android:focusable="true"
+                android:paddingLeft="32dp"
+                android:paddingStart="32dp"
+                android:paddingRight="24dp"
+                android:paddingEnd="24dp"
+                app:layout_constraintBottom_toTopOf="@+id/open_database_button"/>
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/open_database_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

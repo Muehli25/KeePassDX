@@ -281,6 +281,11 @@
         <item name="android:background">@drawable/background_button</item>
         <item name="backgroundTint">@color/background_button_color_primary</item>
     </style>
+    <style name="KeepassDXStyle.Button.Cloud" parent="KeepassDXStyle.v21.Button">
+        <item name="android:textColor">?attr/textColorInverse</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="backgroundTint">@color/blue_light</item>
+    </style>
     <style name="KeepassDXStyle.ImageButton" parent="KeepassDXStyle.v21.Button">
         <item name="android:colorForeground">?attr/textColorInverse</item>
         <item name="android:background">@drawable/background_image_button</item>
