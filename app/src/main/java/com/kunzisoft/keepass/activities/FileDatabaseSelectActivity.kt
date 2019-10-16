@@ -112,7 +112,9 @@ class FileDatabaseSelectActivity : StylishActivity(),
 
         //Cloud Button
         cloudDatabaseButtonView = findViewById(R.id.cloud_database_button)
-        cloudDatabaseButtonView?.setOnClickListener { }
+        cloudDatabaseButtonView?.setOnClickListener {
+            startActivity(Intent(this,CloudProviderActivity::class.java))
+        }
 
         // History list
         val fileDatabaseHistoryRecyclerView = findViewById<RecyclerView>(R.id.file_list)

@@ -143,6 +143,7 @@
     <string name="maskpass_title">Hide passwords</string>
     <string name="maskpass_summary">Mask passwords (***) by default</string>
     <string name="menu_about">About</string>
+    <string name="menu_cloud">Cloud Provider</string>
     <string name="menu_change_key_settings">Change master key</string>
     <string name="copy_field">Copy of %1$s</string>
     <string name="settings">Settings</string>
