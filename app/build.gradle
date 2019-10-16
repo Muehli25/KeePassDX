@@ -112,4 +112,6 @@ dependencies {
     // Icon pack
     implementation project(path: ':icon-pack-classic')
     implementation project(path: ':icon-pack-material')
+    //Cloud
+    implementation "com.github.nextcloud:Android-SingleSignOn:0.4.1"
 }
